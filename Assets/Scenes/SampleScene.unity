@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447341820}
   - component: {fileID: 447341821}
+  - component: {fileID: 447341822}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -210,6 +211,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &447341822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447341819}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491bc48b83e0bb94d867befe14d3734a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LifeCycle
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +371,7 @@ GameObject:
   - component: {fileID: 521725298}
   - component: {fileID: 521725299}
   - component: {fileID: 521725300}
+  - component: {fileID: 521725301}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -451,6 +465,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d1c7c96109cd14891fd2a3907e7c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Script1
+--- !u!114 &521725301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521725297}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491bc48b83e0bb94d867befe14d3734a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LifeCycle
 --- !u!1 &525923918
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +695,7 @@ GameObject:
   - component: {fileID: 1443919646}
   - component: {fileID: 1443919645}
   - component: {fileID: 1443919647}
+  - component: {fileID: 1443919648}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -762,6 +789,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491bc48b83e0bb94d867befe14d3734a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LifeCycle
+--- !u!114 &1443919648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443919644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0b4cf4c89d8994db49f777cba69e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Variables
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
